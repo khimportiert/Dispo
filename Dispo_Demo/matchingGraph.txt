@@ -1,0 +1,16 @@
+strict graph G {
+  1;
+  2;
+  3;
+  4;
+  5;
+  6;
+  4 -- 1 [ color="green" penwidth="2.0" ];
+  4 -- 2 [ color="green" penwidth="2.0" ];
+  4 -- 3 [ color="green" penwidth="2.0" ];
+  5 -- 1 [ color="green" penwidth="2.0" ];
+  5 -- 2 [ color="green" penwidth="2.0" ];
+  5 -- 3 [ color="green" penwidth="2.0" ];
+  6 -- 2 [ color="green" penwidth="2.0" ];
+  6 -- 3 [ color="green" penwidth="2.0" ];
+}
